@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Candy Crush</title>
+
+    <script src="https://kit.fontawesome.com/f97e9a7da6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="content">
+        <div class="score-board-grid">
+            <div class="moves-card">
+                <div class="inner-moves-card">
+                    <h2 class="moves-header">Moves:</h2>
+                    <p id="moves">20</p>
+                </div>
+            </div>
+            <div class="score-card">
+                <div class="inner-score-card">
+                    <h2 class="score-header">Score:</h2>
+                    <p id="score">0</p>
+                </div>
+            </div>
+            <div class="stars">
+                <div class="inner-stars">
+                    <i class="fas fa-star three-star"></i>
+                    <i class="fas fa-star two-star"></i>
+                    <i class="fas fa-star one-star"></i>
+                </div>
+            </div>
+        
+            <button type="button" class="reset-btn">Reset Game</button>
+            <div class="sound">
+                <button type="button" class="play"><i class="fas fa-volume-up fa-2x"></i></button>
+                <button type="button" class="mute"><i class="fas fa-volume-mute fa-2x"></i></button>
+            </div>
+        </div>
+        
+        <div class="grid"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
